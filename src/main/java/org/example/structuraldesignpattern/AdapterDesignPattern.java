@@ -12,13 +12,14 @@ https://www.geeksforgeeks.org/adapter-pattern/
  */
 
 /*
+in java Arrays.asList uses adapter design pattern
+ */
+
+/*
 generate korean movies subtitle using adapter design pattern
  */
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 // korean movies player interface
 interface KoreanMediaPlayer{
@@ -93,5 +94,6 @@ public class AdapterDesignPattern {
 
         KoreanMediaPlayer koreanMediaPlayerAdapter = new AdapterClass(koreanMediaPlayer);
         koreanMediaPlayerAdapter.playKoreanMovies("train to busan");
+
     }
 }
