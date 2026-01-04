@@ -1,4 +1,4 @@
-package org.example.behavioraldesignpattern;
+package org.example.behavioraldesignpattern.strategydp;
 
 interface PaymentStrategy {
     void makePayment();
